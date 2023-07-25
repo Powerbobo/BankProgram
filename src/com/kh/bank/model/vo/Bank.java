@@ -30,6 +30,20 @@ public class Bank {
 		this.customerMoney = customerMoney;
 	}
 	
+	
+	
+	public Bank(String customerPw, String customerName, String customerCompany, String customerPosition,
+			String customerPhone, String customerAddress, long customerMoney) {
+		super();
+		this.customerPw = customerPw;
+		this.customerName = customerName;
+		this.customerCompany = customerCompany;
+		this.customerPosition = customerPosition;
+		this.customerPhone = customerPhone;
+		this.customerAddress = customerAddress;
+		this.customerMoney = customerMoney;
+	}
+
 	// getter, setter 메소드
 	public String getCustomerId() {
 		return customerId;
